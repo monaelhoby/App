@@ -1,0 +1,180 @@
+.top-trending h2{
+	color: rgba(22, 25, 24, 255);
+}
+.top-trending hr{
+	width: 90px;
+    border-top: 1px solid #cfcfcf;
+	margin-bottom: 30px
+}
+.top-trending .p{
+	font-size: 13pt;
+	color: rgba(146, 146, 146, 255);
+	width: 70%;
+	margin: auto auto 60px
+}
+.sub-main{
+	padding-top: 20px;
+	padding-bottom: 40px
+}
+.sub-main span{
+	color: #8888;
+	font-weight: 400;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	margin-right: 20px
+}
+.top-trending button a{
+	color: #FFF
+}
+.top-trending .overlay{
+	width: 100%
+}
+.top-trending img{
+	width: 100%;
+	height: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1
+}
+.top-trending .overlay {
+	position: relative
+}
+
+.top-trending .overlay a{
+	display: block;
+	position: relative;
+	background: rgba(246,246,246,.4);
+	width: 100%;
+	height: 300px;
+	z-index: 33
+}
+.top-trending .overlay .hover1 ,
+.top-trending .overlay .hover2{
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	z-index: 99
+}
+.top-trending .overlay .hover1 {
+	bottom: 50px
+}
+.top-trending .overlay .hover2{
+	bottom: 0
+}
+.top-trending .overlay .hover1 a,
+.top-trending .overlay .hover2 a{
+	opacity: 0;
+	height: 39px;
+	width: 159px;
+	line-height: 39px
+}
+.top-trending .product:hover .overlay .hover1 a,
+.top-trending .product:hover .overlay .hover2 a{
+	opacity: 1;
+	font-size: 11pt
+}
+.top-trending .color{
+    display: none;
+	margin: auto
+}
+.top-trending .static{
+     display: block
+}
+.top-trending .color span{
+    height: 20px;
+	width: 20px;
+	margin-right: 5px;
+	display: inline-block
+}
+.top-trending .color span:first-of-type{
+    background: #efacac
+}
+.top-trending .color span:nth-of-type(2){
+    background: #edd9a2
+}
+.top-trending .color span:nth-of-type(3){
+    background: #b0dfb8
+}
+.top-trending .color span:nth-of-type(4){
+    background: #b7cdd4
+}
+.top-trending .color span:hover{
+    height: 23px;
+	width: 23px;
+}
+.top-trending .overlay .hover1 a{
+	background: rgba(0,0,0,.8);
+	color: #FFF;
+}
+.top-trending .overlay .hover2 a{
+	background: rgba(255,255,255,.8);
+	color: #000;
+}
+.top-trending .product:hover .overlay .img-over{
+	background: rgba(197,197,197,.5);
+}
+.top-trending .product:hover .static{
+     display: none
+}
+.top-trending .product:hover .color{
+     display: block
+}
+.top-trending h4{
+	font-size: 14px;
+	color: rgba(22, 25, 24, 255);
+}
+.top-trending .content p{
+	font-size: 16pt;
+	color: rgba(146, 146, 146, 255);
+}
+.top-trending small{
+	color: rgba(146, 146, 146, 255);
+	text-decoration: line-through;
+	font-size: 9pt
+}
+.top-trending .new ,
+.top-trending .sale{
+	position: absolute;
+    top: 10px;
+    z-index: 999;
+    padding: 2px 5px;
+    color: #FFF;
+}
+.top-trending .new{
+	right: 25px;
+	background: #000;
+}
+.top-trending .sale{
+	left: 25px;
+	background: #c55353;
+}
+.top-trending .product{
+	padding: 5px 5px;
+	float: left;
+	margin-top: 20px
+}
+.top-trending .buton{
+	margin: auto 30px auto 30px;
+	background: #000;
+	font-size: 14px;
+	padding: 12px 25px;
+	font-weight: 700;
+	-webkit-box-shadow: 1px 1px 2px #ccc , -1px -1px 2px #ccc;
+	-moz-box-shadow: 1px 1px 2px #ccc , -1px -1px 2px #ccc;
+	-o-box-shadow: 1px 1px 2px #ccc , -1px -1px 2px #ccc;
+	box-shadow: 1px 1px 2px #ccc , -1px -1px 2px #ccc;
+	margin-bottom: 40px
+}
+.top-trending .buton a{
+	color: #FFF
+}
+.top-trending .buton:hover{
+	background: #fff
+}
+.top-trending .buton:hover a{
+	color: #000
+}

@@ -1,0 +1,131 @@
+{   
+    "trending" : [
+        {
+            "id" : 1,
+            "img" : "/img/trending/1.png",
+            "title" : "Excepteur sint occaecat cupidatat",
+            "btn1" : "QUICK VIEW",
+            "btn2" : "MORE DETAILS",
+            "price" : "199.00$",
+            "oldPrice" : "",
+            "new" : "New" ,
+            "sale" : "" 
+        },
+        {
+            "id" : 2,
+            "img" : "/img/trending/2.png",
+            "title" : "Excepteur sint occaecat cupidatat",
+            "btn1" : "QUICK VIEW",
+            "btn2" : "MORE DETAILS",
+            "price" : "199.00$",
+            "oldPrice" : "",
+            "new" : " " ,
+            "sale" : "" 
+        },
+        {
+            "id" : 3,
+            "img" : "/img/trending/3.png",
+            "title" : "Excepteur sint occaecat cupidatat",
+            "btn1" : "QUICK VIEW",
+            "btn2" : "MORE DETAILS",
+            "price" : "199.00$",
+            "oldPrice" : "299.00$",
+            "new" : "New" ,
+            "sale" : "-20" 
+        },
+        {
+            "id" : 4,
+            "img" : "/img/trending/4.png",
+            "title" : "Excepteur sint occaecat cupidatat",
+            "btn1" : "QUICK VIEW",
+            "btn2" : "MORE DETAILS",
+            "price" : "199.00$",
+            "oldPrice" : "",
+            "new" : " " ,
+            "sale" : "" 
+        },
+        {
+            "id" : 5,
+            "img" : "/img/trending/5.png",
+            "title" : "Excepteur sint occaecat cupidatat",
+            "btn1" : "QUICK VIEW",
+            "btn2" : "MORE DETAILS",
+            "price" : "199.00$",
+            "oldPrice" : "299.00$",
+            "new" : "" ,
+            "sale" : "-20" 
+        },
+        {
+            "id" : 6,
+            "img" : "/img/trending/6.png",
+            "title" : "Excepteur sint occaecat cupidatat",
+            "btn1" : "QUICK VIEW",
+            "btn2" : "MORE DETAILS",
+            "price" : "199.00$",
+            "oldPrice" : "299.00$",
+            "new" : "" ,
+            "sale" : "-20" 
+        },
+        {
+            "id" : 7,
+            "img" : "/img/trending/7.png",
+            "title" : "Excepteur sint occaecat cupidatat",
+            "btn1" : "QUICK VIEW",
+            "btn2" : "MORE DETAILS",
+            "price" : "199.00$",
+            "oldPrice" : "",
+            "new" : " " ,
+            "sale" : "" 
+        },
+        {
+            "id" : 8,
+            "img" : "/img/trending/8.png",
+            "title" : "Excepteur sint occaecat cupidatat",
+            "btn1" : "QUICK VIEW",
+            "btn2" : "MORE DETAILS",
+            "price" : "199.00$",
+            "oldPrice" : "299.00$",
+            "new" : "" ,
+            "sale" : "-20" 
+        },
+        {
+            "id" : 9,
+            "img" : "/img/trending/9.png",
+            "title" : "Excepteur sint occaecat cupidatat",
+            "btn1" : "QUICK VIEW",
+            "btn2" : "MORE DETAILS",
+            "price" : "199.00$",
+            "oldPrice" : "",
+            "new" : " " ,
+            "sale" : "" 
+        },
+        {
+            "id" :10,
+            "img" : "/img/trending/10.png",
+            "title" : "Excepteur sint occaecat cupidatat",
+            "btn1" : "QUICK VIEW",
+            "btn2" : "MORE DETAILS",
+            "price" : "199.00$",
+            "oldPrice" : "",
+            "new" : " " ,
+            "sale" : "" 
+        }
+    ],
+    "footer" : [
+        {
+            "id" : 1,
+            "title" : "Products",
+            "allLinks" : ["Prices drop","New products","Best sales"]
+        },
+        {
+            "id" : 2,
+            "title" : "Information",
+            "allLinks" : ["Delivery","Legal Notice","Stores","About us","Secure payment","Contact us","Sitemap"]
+        },
+        {
+            "id" : 3,
+            "title" : "Your account",
+            "allLinks" : ["Addresses","Credit slips","Orders","Personal info"]
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+
+*{
+	font-family: 'Montserrat', 'AdobeInvisFont', 'MyriadPro-Regular';
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+button , a{
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	text-decoration: none;
+	color: #000
+}
+a:hover{
+	text-decoration: none;
+	color: #000
+}
+button{
+	background: none;
+	border: none
+}
+.carousel{
+	position:relative;
+	overflow:hidden
+}
+.carousel__dot-group{
+    position: absolute;
+    left:160px;
+    bottom:100px
+}
+@media (max-width:991px) and (min-width:768px) {
+	.carousel__dot-group{
+		bottom:30px
+	}
+}
+@media (max-width:767px)  {
+	.carousel__dot-group{
+		display:none
+	}
+}
+.carousel__dot-group button{
+	height: 15px !important;
+	width: 10px !important;
+    background: rgba(255,255,255,.8) !important;
+    margin-left:10px;
+    border:none
+}
+.carousel__dot-group .carousel__dot--selected{
+	background: rgba(0,0,0,.8) !important
+}
+.carousel__back-button:hover ,
+.carousel__next-button:hover {
+    background:rgba(0,0,0,.7)
+}
